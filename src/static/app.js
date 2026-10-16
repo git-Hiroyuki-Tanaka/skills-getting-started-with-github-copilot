@@ -134,6 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       );
 
+      await fetchActivities();
       const result = await response.json();
 
       if (response.ok) {
